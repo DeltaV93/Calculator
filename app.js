@@ -10,3 +10,11 @@ function addBtnNumber (num) {
 for (var i = 9; i > -1; i--) {
   addBtnNumber(i);
 }
+
+// Calculate Function
+// Turn in a set of number enter before the operations as a singe array
+// save set value as array
+// save operation 2nd array
+// repeat as needed
+// do the math when '=' is clicked
+// return the number in input
