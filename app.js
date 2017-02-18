@@ -1,11 +1,11 @@
 function addBtnNumber (num) {
-  // find the ul
-  var ul = document.getElementById('calc-numbs');
-  // create the li
-  var li = document.createElement("button");
-  // add the number to li
-  li.innerHTML=num;
-  ul.appendChild(li);
+  // find the div
+  var numDiv = document.getElementById('calc-numbs');
+  // create the btn
+  var btns = document.createElement("button");
+  // add the number to btns
+  btns.innerHTML=num;
+  numDiv.appendChild(btns);
 }
 for (var i = 9; i > -1; i--) {
   addBtnNumber(i);
